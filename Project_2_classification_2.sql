@@ -1,37 +1,5 @@
--- 1. Create a database called credit_card_classification.
-use credit_card_classification;
--- 2. Create a table credit_card_data with the same columns as given in the csv file. 
--- You can find the names of the headers for the table in the creditcardmarketing.xlsx file. 
--- Use the same column names as the names in the excel file. 
--- Please make sure you use the correct data types for each of the columns.
-select * from credit_card_data;
--- 3. Import the data from the csv file into the table. 
--- Before you import the data into the empty table, make sure that you have deleted the headers from the csv file. 
--- (in this case we have already deleted the header names from the csv files). 
--- To not modify the original data, if you want you can create a copy of the csv file as well. Note you might have to use the following queries to give permission to SQL to import data from csv files in bulk:
-
--- 4. Select all the data from table credit_card_data to check if the data was imported correctly.
-select * from credit_card_data;
--- 5. Use the alter table command to drop the column q4_balance from the database, as we would not use it in the analysis with SQL. Select all the data from the table to verify if the command worked. Limit your returned results to 10.
-
--- 6. Use sql query to find how many rows of data you have.
-select count(myunknowncolumn) from credit_card_data;
--- Before to import the data in MySQL I cleanned them in python and it appeared that 24 rows have nan values. 
--- Which is the difference between 18000 (total rows) and 17976 (rows imported)
-
--- 7. Now we will try to find the unique values in some of the categorical columns:
--- - What are the unique values in the column `Offer_accepted`?
-select distinct(offer_accepted) from credit_card_data;
--- - What are the unique values in the column `Reward`?
-select distinct(reward) from credit_card_data;
--- - What are the unique values in the column `mailer_type`?
-select distinct(mailer_type) from credit_card_data;
--- - What are the unique values in the column `credit_cards_held`?
-select distinct(credit_cards_held) from credit_card_data;
--- - What are the unique values in the column `household_size`?
-select distinct(household_size) from credit_card_data;
-
--- 8. Arrange the data in a decreasing order by the average_balance of the house. Return only the customer_number of the top 10 customers with the highest average_balances in your data.
+-- 8. Arrange the data in a decreasing order by the average_balance of the house. 
+-- Return only the customer_number of the top 10 customers with the highest average_balances in your data.
 
 -- 9. What is the average balance of all the customers in your data?
 
@@ -42,6 +10,8 @@ select distinct(household_size) from credit_card_data;
 -- - What is the average number of credit cards held by customers for each of the credit card ratings? The returned result should have only two columns, rating and average number of credit cards held. Use an alias to change the name of the second column.
 -- - Is there any correlation between the columns `credit_cards_held` and `number_of_bank_accounts_open`? You can analyse this by grouping the data by one of the variables and then aggregating the results of the other column. Visually check if there is a positive correlation or negative correlation or no correlation between the variables.
 -- You might also have to check the number of customers in each category (ie number of credit cards held) to assess if that category is well represented in the dataset to include it in your analysis. For eg. If the category is under-represented as compared to other categories, ignore that category in this analysis
+
+
 -- 11. Your managers are only interested in the customers with the following properties:
 
 -- - Credit rating medium or high
