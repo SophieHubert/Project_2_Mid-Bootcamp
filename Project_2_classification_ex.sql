@@ -1,0 +1,1 @@
+select * from credit_card_data;
