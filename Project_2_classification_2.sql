@@ -45,20 +45,35 @@
 -- For the rest of the things, they are not too concerned. 
 -- Write a simple query to find what are the options available for them? 
 -- Can you filter the customers who accepted the offers here?
-select credit_rating, credit_cards_held, homes_owned, household_size ,offer_accepted
+-- select credit_rating, credit_cards_held, homes_owned, household_size ,offer_accepted
+-- from credit_card_data
+-- where credit_rating = 'medium' or credit_rating = 'high'
+-- and credit_cards_held <= 2
+-- and homes_owned = 'yes'
+-- and household_size >= 3 
+-- having offer_accepted = 'yes';
+
+-- 12. Your managers want to find out the list of customers whose average balance is less than the average balance 
+-- of all the customers in the database. Write a query to show them the list of such customers. 
+-- You might need to use a subquery for this problem.
+select customer_number, average_balance 
 from credit_card_data
-where credit_rating = 'medium' or credit_rating = 'high'
-and credit_cards_held <= 2
-and homes_owned = 'yes'
-and household_size >= 3 
-having offer_accepted = 'yes';
-
--- 12. Your managers want to find out the list of customers whose average balance is less than the average balance of all the customers in the database. Write a query to show them the list of such customers. You might need to use a subquery for this problem.
-
--- 13. Since this is something that the senior management is regularly interested in, create a view called Customers__Balance_View1 of the same query.
+where average_balance <
+(select avg(average_balance) from credit_card_data
+) 
+ ;
+-- 13. Since this is something that the senior management is regularly interested in, 
+-- create a view called Customers__Balance_View1 of the same query.
+-- create Customers__Balance_View1 as
+-- select customer_number, average_balance 
+-- from credit_card_data
+-- where average_balance <
+-- (select avg(average_balance) from credit_card_data
+-- ) 
+--  ;
 
 -- 14. What is the number of people who accepted the offer vs number of people who did not?
-
+-- select count(offer_accepted)
 -- 15. Your managers are more interested in customers with a credit rating of high or medium. What is the difference in average balances of the customers with high credit card rating and low credit card rating?
 
 -- 16. In the database, which all types of communication (mailer_type) were used and with how many customers?
