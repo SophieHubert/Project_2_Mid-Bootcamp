@@ -5,6 +5,7 @@ use credit_card_classification;
 -- Use the same column names as the names in the excel file. 
 -- Please make sure you use the correct data types for each of the columns.
 select * from credit_card_data;
+
 -- 3. Import the data from the csv file into the table. 
 -- Before you import the data into the empty table, make sure that you have deleted the headers from the csv file. 
 -- (in this case we have already deleted the header names from the csv files). 

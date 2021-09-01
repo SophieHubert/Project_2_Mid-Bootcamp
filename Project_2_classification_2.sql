@@ -56,12 +56,13 @@
 -- 12. Your managers want to find out the list of customers whose average balance is less than the average balance 
 -- of all the customers in the database. Write a query to show them the list of such customers. 
 -- You might need to use a subquery for this problem.
-select customer_number, average_balance 
-from credit_card_data
-where average_balance <
-(select avg(average_balance) from credit_card_data
-) 
- ;
+-- select customer_number, average_balance 
+-- from credit_card_data
+-- where average_balance <
+-- (select avg(average_balance) from credit_card_data
+-- ) 
+ -- ;
+ 
 -- 13. Since this is something that the senior management is regularly interested in, 
 -- create a view called Customers__Balance_View1 of the same query.
 -- create Customers__Balance_View1 as
@@ -73,9 +74,27 @@ where average_balance <
 --  ;
 
 -- 14. What is the number of people who accepted the offer vs number of people who did not?
--- select count(offer_accepted)
--- 15. Your managers are more interested in customers with a credit rating of high or medium. What is the difference in average balances of the customers with high credit card rating and low credit card rating?
+-- select sum(offer_accepted='Yes') as offer_accepted, sum(offer_accepted='No') as offer_not_accepted
+-- from credit_card_data;
+
+
+-- 15. Your managers are more interested in customers with a credit rating of high or medium. 
+-- What is the difference in average balances of the customers with high credit card rating 
+-- and low credit card rating?
+-- select customer_number, credit_rating, average_balance
+-- from credit_card_data
+-- where credit_rating = 'high' or credit_rating = 'medium';
+
+-- select credit_rating, avg(average_balance)
+-- from credit_card_data
+-- where credit_rating != 'low'
+-- group by credit_rating;
 
 -- 16. In the database, which all types of communication (mailer_type) were used and with how many customers?
+-- select mailer_type ,count(customer_number)
+-- from credit_card_data
+-- group by mailer_type;
 
 -- 17. Provide the details of the customer that is the 11th least Q1_balance in your database.
+select customer_number, rank(q1_balance)
+from 
