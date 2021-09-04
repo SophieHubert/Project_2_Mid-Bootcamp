@@ -9,9 +9,6 @@ We will also look for other potential areas of opportunities.
 - `credit_card_data.csv`
 - `creditcardmarketing.xlsx`
 
-**The aim of this study is to build a model that will provide insight into why some bank customers accept credit card offers.**
-And will also look for other potential areas of opportunities.
-
 
 
 The softwares used to analyse and answer the queries are:

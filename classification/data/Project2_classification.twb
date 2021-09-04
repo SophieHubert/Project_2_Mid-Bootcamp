@@ -649,8 +649,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='3' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000' />
+            <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='5' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000' />
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -691,7 +691,7 @@
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.5' source-height='44'>
-    <window class='worksheet' name='Data_exploring'>
+    <window class='worksheet' maximized='true' name='Data_exploring'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -919,7 +919,7 @@
       </viewpoint>
       <simple-id uuid='{8BE11D7F-44EB-4B1E-B5F6-0CA149B12EB6}' />
     </window>
-    <window class='worksheet' maximized='true' name='07- '>
+    <window class='worksheet' name='07- '>
       <cards>
         <edge name='left'>
           <strip size='160'>
