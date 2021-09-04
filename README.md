@@ -7,7 +7,7 @@ The aim of this study is to provide insight into why some bank customers accept 
 We will also look for other potential areas of opportunities.
 
 
-**Data:** The data set consists of information on 18,000 current bank customers in the study.
+**Data:** The data set consists of information on 18,000 current bank customers .
 - `credit_card_marketing.csv`
 - `credit_card_data.csv`
 - `creditcardmarketing.xlsx`
@@ -20,7 +20,7 @@ The softwares used to analyse and answer the queries are:
  - Tableau 
 
 
-To self-manage the project i have been using Kanban board
+To manage the project i have been using Kanban board
 
 
 
