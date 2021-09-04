@@ -81,9 +81,12 @@ To manage the project i have been using Kanban board
 - `Functions` 
 
 
-**MySql project classification:**
+**MySql:**
 - `Project_2_classification`
 - `Project_2_classification_2`
 
  
+
+
  
+    ![euro](euros.jfif)
