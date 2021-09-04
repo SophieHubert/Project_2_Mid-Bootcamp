@@ -17,7 +17,7 @@ Data: The data set consists of information on 18,000 current bank customers in t
  - credit_card_marketing.csv
  - credit_card_data.csv
  - creditcardmarketing.xlsx
->>>>>>> 70e61533d3fc850a35ee6d46cdce345268ce6108
+
 
 The softwares used to analyse and answer the queries are:
  - Jupyter notebook
@@ -27,7 +27,7 @@ The softwares used to analyse and answer the queries are:
 
 To self-manage the project i have been using Kanban board
 
-<<<<<<< HEAD
+
 
 
 # Classification - Credit_card
@@ -43,7 +43,8 @@ Exploring the data with Mysql
 The different queries have been resolved in :
 - **MYSQL:** MySQL project classification
 - **Jupyter notebook:** 02- MySQL - Classification 
-=======
+
+
 # Classification - Credit_card
 
 01. **Data Cleaning**
@@ -52,7 +53,7 @@ The different queries have been resolved in :
    - column name, removing  symbols and formating
    - checking duplicates and nan values
 
->>>>>>> 70e61533d3fc850a35ee6d46cdce345268ce6108
+
 
 02. **SQL Questions - Classification**
    Exploring the data with Mysql
@@ -60,34 +61,34 @@ The different queries have been resolved in :
    - **MYSQL:** MySQL project classification
    - **Jupyter notebook:** 02- MySQL - Classification
 
-<<<<<<< HEAD
+
 03. **Exploring the data**
 Exploring and understanding the data with jupyter notebook to prepare the data for modeling before building exploratory or predictive models.
-=======
->>>>>>> 70e61533d3fc850a35ee6d46cdce345268ce6108
+
+
 
 03. **Exploring the data**
    Exploring and understanding the data with jupyter notebook to prepare the data for modeling before building exploratory or predictive models.
 
-<<<<<<< HEAD
+
 04. **Tableau - Classification**
 Creation of a dashboard to represent the information
 Queries exploring the data through tableau
-=======
+
 
 
 04. **Tableau - Classification**
    Creation of a dashboard to represent the information
    Queries exploring the data through tableau
->>>>>>> 70e61533d3fc850a35ee6d46cdce345268ce6108
+
 
 data: creditcardmarketing.xlsx 
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 70e61533d3fc850a35ee6d46cdce345268ce6108
+
+
+
 # Main libraries used on the project  :
 - Matplotlib
 - Pandas
@@ -97,7 +98,7 @@ data: creditcardmarketing.xlsx
 - math
 - numpy
  
-<<<<<<< HEAD
+
 
 
 # Documents:
@@ -110,7 +111,6 @@ data: creditcardmarketing.xlsx
 **MySql project classification:**
 - Project_2_classification
 - Project_2_classification_2
-=======
+
  
  
->>>>>>> 70e61533d3fc850a35ee6d46cdce345268ce6108
