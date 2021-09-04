@@ -15,7 +15,7 @@ The softwares used to analyse and answer the queries are:
 
 To self-manage the project i have been using Kanban board
 
-Classification - Credit_card
+# Classification - Credit_card
 
 01- Data Cleaning
 The first step of this project was cleaning the data and saving as new file .
