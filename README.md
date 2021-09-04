@@ -1,5 +1,8 @@
 # Project_2_Mid-Bootcamp - classification
 
+![credit-card](credit-card.jpg)
+
+
 The aim of this study is to provide insight into why some bank customers accept credit card offers. 
 We will also look for other potential areas of opportunities.
 
