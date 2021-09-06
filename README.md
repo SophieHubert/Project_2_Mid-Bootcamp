@@ -65,8 +65,8 @@ To manage the project i have been using Kanban Project Board
  
 
 # Main libraries used on the project  :
-- Matplotlib
-- Pandas
+- Matplotlib https://matplotlib.org
+- Pandas https://pandas.pydata.org/docs/
 - pymysql
 - scipy.stats
 - seaborn
