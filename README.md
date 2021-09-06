@@ -3,8 +3,11 @@
 ![credit-card](credit-card.jpg)
 
 
-The aim of this study is to provide insight into why some bank customers accept credit card offers. 
-We will also look for other potential areas of opportunities.
+**Background:**  I work as a Risk Analyst for a bank, which provides various banking and loan services, as well as credit card services which are a very important revenue source. 
+
+**Objective:** Understanding the demographics and other characteristics of the bank's customers.
+This study provides insight into why some bank customers accept credit card offers. 
+We will also look for other potential areas of opportunity.
 
 
 **Data:** The data set consists of information on 18,000 current bank customers .
@@ -14,13 +17,13 @@ We will also look for other potential areas of opportunities.
 
 
 
-The softwares used to analyse and answer the queries are:
+The software used to analyse the data and answer the queries are:
  - Jupyter notebook
  - MYSQL
  - Tableau 
 
 
-To manage the project i have been using Kanban board
+To manage the project i have been using Kanban Project Board
 
 
 
@@ -31,15 +34,15 @@ To manage the project i have been using Kanban board
 # Classification - Credit_card
 
 01. **Data Cleaning**
-   The first step of this project was cleaning the data and saving as new file .
-   I choose to start by cleaning the dataset as it was easier to use to answer the queries.
+   The first step of this project was cleaning the data and saving it as new file .
+   I choose to start by cleaning the dataset as it was easier to use to answer the queries in MySQL.
    - column name, removing  symbols and formating
    - checking duplicates and nan values
 
 
 
 02. **SQL Questions - Classification**
-   Exploring the data with Mysql
+   Exploring the data with MySQL.
    The different queries have been resolved in :
    - **MYSQL:** MySQL project classification
    - **Jupyter notebook:** 02- MySQL - Classification
@@ -57,7 +60,7 @@ To manage the project i have been using Kanban board
 
 04. **Tableau - Classification**
    Creation of a dashboard to represent the information
-   Queries exploring the data through tableau
+   Queries exploring the data through Tableau
 
  
 
@@ -81,7 +84,7 @@ To manage the project i have been using Kanban board
 - `Functions` 
 
 
-**MySql:**
+**MySQL:**
 - `Project_2_classification`
 - `Project_2_classification_2`
 
@@ -89,4 +92,4 @@ To manage the project i have been using Kanban board
 
 
  
-    ![euro](euros.jfif)
+    
